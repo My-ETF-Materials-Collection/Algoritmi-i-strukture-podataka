@@ -36,7 +36,7 @@
 
 - U primjeru funkcije MAX-ELEMENT, broj operacija dodjele koji se izvršavaju varira između 1 i n, što ovisi o poziciji najvećeg elementa u nizu
 
-'''pseudocode
+'''
 MAX-ELEMENT (K)
 max = K[0]
 for i = 1 to n-1 do
