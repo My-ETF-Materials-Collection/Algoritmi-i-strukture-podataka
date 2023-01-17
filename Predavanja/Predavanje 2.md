@@ -205,3 +205,8 @@ gdje su:
 - U literaturi se pojavljuju različiti zapisi kojima se prikazuje da neka funkcija f pripada skupu O(g), Ω(g) i Θ(g)
 
 #### Neke tipične klase stupnjeva rasta vremenske složenosti
+
+![image](https://user-images.githubusercontent.com/113919501/213025288-556d5ee4-d6a2-4b05-8e62-d2bf4ca600c4.png) <\br>
+![image](https://user-images.githubusercontent.com/113919501/213025396-713238e3-34a4-4a0b-8402-f54bdfb29420.png)
+
+
