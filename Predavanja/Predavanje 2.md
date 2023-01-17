@@ -128,10 +128,9 @@ end_if
 end_while
 return -1
 ```
-![image](https://user-images.githubusercontent.com/113919501/213008604-cb4ab6bb-a843-4535-b8e6-2a403cbcd35f.png)
-![image](https://user-images.githubusercontent.com/113919501/213008641-84513fdc-29d2-4e18-adfb-ec4801e76a82.png)
-![image](https://user-images.githubusercontent.com/113919501/213008675-3519ecf0-8f06-4b5e-bb8c-020fc36ff810.png)
-
+![image](https://user-images.githubusercontent.com/113919501/213008604-cb4ab6bb-a843-4535-b8e6-2a403cbcd35f.png) \\
+![image](https://user-images.githubusercontent.com/113919501/213008641-84513fdc-29d2-4e18-adfb-ec4801e76a82.png) \\
+![image](https://user-images.githubusercontent.com/113919501/213008675-3519ecf0-8f06-4b5e-bb8c-020fc36ff810.png) \\
 
 Da bi našli prosječan slučaj potrebno je uraditi sljedeće:
 
@@ -139,7 +138,7 @@ Da bi našli prosječan slučaj potrebno je uraditi sljedeće:
 
 2. Za svaku identificiranu moguću grupu ulaza ui, odrediti broj operacija t(ui), koje se izvršavaju u algoritmu.
 
-3. Zbrojiti operacije za sve grupe ulaza i zbroj podijeliti sa brojem grupa: ![image](https://user-images.githubusercontent.com/113919501/213008720-618512b2-2b2d-4516-8ac9-3f0580553f23.png)
+3. Zbrojiti operacije za sve grupe ulaza i zbroj podijeliti sa brojem grupa: <align>![image](https://user-images.githubusercontent.com/113919501/213008720-618512b2-2b2d-4516-8ac9-3f0580553f23.png)</align>
 
 4. Utvrditi vjerojatnost pojavljivanja svake klase ulaza i izračunati prosječno očekivani broj operacija T(n) kao:
 
