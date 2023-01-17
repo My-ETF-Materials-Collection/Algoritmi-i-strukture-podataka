@@ -128,3 +128,23 @@ end_if
 end_while
 return -1
 ```
+
+Da bi našli prosječan slučaj potrebno je uraditi sljedeće:
+
+1. Utvrditi broj različitih grupa m, odnosno broj različitih klasa ulaza, u koje se mogu svrstati svi mogući ulazi za neki algoritam.
+
+2. Za svaku identificiranu moguću grupu ulaza ui, odrediti broj operacija t(ui), koje se izvršavaju u algoritmu.
+
+3. Zbrojiti operacije za sve grupe ulaza i zbroj podijeliti sa brojem grupa:
+
+4. Utvrditi vjerojatnost pojavljivanja svake klase ulaza i izračunati prosječno očekivani broj operacija T(n) kao:
+
+gdje su:
+n veličina ulaza
+m broj različitih klasa ulaza
+t(ui) broj operacija za klasu ulaza ui
+p(ui) vjerojatnost pojavljivanja klase ulaza ui, pri čemu je:
+
+5. Prosječna analiza vremenske složenosti algoritma se bazira na identifikaciji različitih klasa ulaza i razmatranju ponašanja algoritma za svaku klasu.
+
+6. Analiza prosječnog slučaja daje očekivana vremena trajanja algoritamskog procesa, te je često najzahtjevnija zbog problema identifikacije prosječnog slučaja zbog različitih vjerojatnosti pojavljivanja ulaznih vrijednosti.
