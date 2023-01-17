@@ -142,7 +142,7 @@ Da bi našli prosječan slučaj potrebno je uraditi sljedeće:
 
 4. Utvrditi vjerojatnost pojavljivanja svake klase ulaza i izračunati prosječno očekivani broj operacija T(n) kao:
 
-![image](https://user-images.githubusercontent.com/113919501/213008755-344ba11e-05fe-4104-b880-941f9bc17b79.png)
+![image align="center"](https://user-images.githubusercontent.com/113919501/213008755-344ba11e-05fe-4104-b880-941f9bc17b79.png)
 
 gdje su:
 - n veličina ulaza
