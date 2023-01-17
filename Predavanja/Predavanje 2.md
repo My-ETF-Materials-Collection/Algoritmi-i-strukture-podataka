@@ -10,6 +10,21 @@
 
 - Primjer problema je dizajniranje algoritma za zbrajanje prvih n brojeva, a algoritmi koji se koriste su SUMA (for i=1 do n suma+=i) i SUMA-M(suma=n\*(n+1)/2), koji su ekvivalentni
 
+```c++
+SUMA (n)
+s = 0
+for i = 1 to n do
+s = s + i
+end_for
+return s
+```
+
+```c++
+SUMA-M (n)
+s = n*(n+1)/2
+return s
+```
+
 - Glavna razlika između ovih algoritama je trajanje algoritamskog procesa, jer u prvom algoritmu for petlja se izvršava n puta, dok u drugom algoritmu se obavlja jedno zbrajanje, jedno množenje, i jedno dijeljenje.
 
 - Pitanje da li je vrijeme ključni kriterij uz današnju tehnološku platformu je potvrdno, jer iako se većina implementacija aplikacija temelji na brzoj hardverskoj platformi, grafičkom korisničkom sučelju, umrežavanju, itd., bitni sastavni elementi većine aplikacija su različiti algoritamski sadržaji.
