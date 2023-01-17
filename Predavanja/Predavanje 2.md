@@ -36,7 +36,7 @@
 
 - U primjeru funkcije MAX-ELEMENT, broj operacija dodjele koji se izvršavaju varira između 1 i n, što ovisi o poziciji najvećeg elementa u nizu
 
-'''
+```c++
 MAX-ELEMENT (K)
 max = K[0]
 for i = 1 to n-1 do
@@ -45,6 +45,6 @@ max = K[i]
 end_if
 end_for
 return max
-'''
+```
 
 - Općenito, trajanje algoritamskog procesa ovisi o ulaznim podacima koje algoritam obrađuje.
