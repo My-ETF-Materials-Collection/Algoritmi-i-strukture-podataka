@@ -148,3 +148,55 @@ p(ui) vjerojatnost pojavljivanja klase ulaza ui, pri čemu je:
 5. Prosječna analiza vremenske složenosti algoritma se bazira na identifikaciji različitih klasa ulaza i razmatranju ponašanja algoritma za svaku klasu.
 
 6. Analiza prosječnog slučaja daje očekivana vremena trajanja algoritamskog procesa, te je često najzahtjevnija zbog problema identifikacije prosječnog slučaja zbog različitih vjerojatnosti pojavljivanja ulaznih vrijednosti.
+
+### Asimptotska analiza i klasifikacija stupnjeva rasta
+
+- Pri analizi vremenske složenosti algoritama, interesira nas stupanj rasta sa porastom veličine ulaza, a ne tačan broj operacija.
+
+- Interesira nas ponašanje algoritma za velike ulaze, a ne za male.
+
+- Algoritmi se klasificiraju prema klasama stupnjeva rasta njihove vremenske složenosti.
+
+- Razlike su značajne kod različitih klasa algoritama za velike veličine ulaza.
+
+- Ako je vremenska složenost kombinacija dvije ili više klasa složenosti, dominantna klasa dominira nad ostalima.
+
+- Klasifikacije uobičajenih klasa algoritama su: O(1), O(log n), O(n), O(n log n), O(n^2), O(n^3), O(2^n) and O(n!)
+
+#### Notacija big-O
+
+- Big-O notacija se koristi za klasifikaciju algoritama prema stupnju rasta vremenske složenosti.
+
+- Funkcija f(n) se kaže da je O(g(n)) ako postoje pozitivne konstante c i n0 za koje vrijedi f(n) <= cg(n) za svako n>=n0.
+
+- Big-O notacija definira gornju granicu složenosti algoritma, jer f(n) je asimptotski ograničeno sa g(n) i sigurno nema veći red veličine rasta sa porastom veličine ulaza n.
+
+- Big-O notacija se koristi za klasifikaciju algoritama prema stupnju rasta vremenske složenosti, a ne tačnom broju operacija.
+
+- Postoji beskonačno puno funkcija g(n) za datu funkciju f(n), a za g(n) se izabire funkcija s najmanjim rastom.
+
+- Notacija big-O ima svojstva kao što su: ako su f(n) i g(n) reda O(h(n)), onda je f(n) + g(n) reda O(h(n)), funkcija ank je reda O(nk), i funkcija nk je reda O(nk+j) za sve pozitivne vrijednosti j.
+
+- Vremenska složenost polinomskog oblika f(n) = a_nn^k+a_k-1n^(k-1)+...+a_1n+a_0 izražena big-O notacijom ima oblik O(n^k)
+
+#### Notacija big-Ω
+
+- Big-O notacija daje uvid o ponašanju algoritma prije svega za velike vrijednosti n.
+
+- Big-O notacija daje gornju granicu složenosti algoritama.
+
+- Ponekad se koristi i donja granica složenosti algoritama, koja se izražava big-Ω notacijom.
+
+- Big-Ω notacija izražava da postoje pozitivni brojevi c i n0 takvi da je: f(n) >= cg(n) za svako n>=n0.
+
+#### Notacija big-Θ
+
+- Notacija big-Ω služi za izražavanje donje granice složenosti algoritama
+
+- Notacija big-Θ služi za izražavanje asimptotske granice performansi nekog algoritma sa obje strane, tj. i sa gornje i sa donje strane
+
+- Notacija big-Θ se koristi kada se želi izraziti složenost funkcije f(n) sa gornje i sa donje strane
+
+- U literaturi se pojavljuju različiti zapisi kojima se prikazuje da neka funkcija f pripada skupu O(g), Ω(g) i Θ(g)
+
+#### Neke tipične klase stupnjeva rasta vremenske složenosti
