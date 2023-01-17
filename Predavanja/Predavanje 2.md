@@ -48,3 +48,68 @@ return max
 ```
 
 - Općenito, trajanje algoritamskog procesa ovisi o ulaznim podacima koje algoritam obrađuje.
+
+## Najbolji, najgori i prosječan slučaj
+
+- Pri analizi vremenske složenosti algoritama, potrebno je odlučiti koje operacije su bitne sa stanovišta efikasnosti algoritama.
+
+- Postoje različiti tipovi operacija, kao npr. operacije usporedbi, operacije premještanja elemenata sa jedne lokacije na drugu, aritmetičke operacije, operacije dodjele vrijednosti itd.
+
+- Operacije koje se tretiraju kao relevantne pri nekoj analizi vremenske složenosti, ovisi o konkretnoj situaciji i implementaciji algoritma.
+
+- Aritmetičke operacije se mogu svrstati u dvije grupe: aditivne i multiplikativne.
+
+- Specijalan slučaj je kada imamo cjelobrojno množenje ili dijeljenje sa potencijom broja 2, jer se tada takve operacije mogu svesti na operaciju pomaka.
+
+- U određenim situacijama je opravdano sve tipove operacija razmatrati zajedno.
+
+- Trajanje algoritamskog procesa može varirati ne samo u ovisnosti od veličine ulaza, nego i o konkretnim vrijednostima ulaznih podataka.
+
+- Pri analizi algoritama se mogu razmatrati najbolji, najgori i prosječni slučaj.
+
+### Najbolji slučaj
+
+- Najbolji slučaj predstavlja kombinaciju ulaznih podataka za koju algoritam izvršava u najkraćem vremenu.
+
+- Najbolji slučaj se često odnosi na situaciju kada se tražena vrijednost nalazi na prvoj poziciji u nizu.
+
+- Analiza najboljeg slučaja obično nije od interesa jer ne daje dovoljno dobar uvid u ponašanje algoritma.
+
+- Najbolji slučaj se rijetko analizira jer se obično fokusira na ponašanje algoritma u najgorem slučaju.
+
+### Najgori slučaj
+
+- Najgori slučaj za analizu vremenske složenosti algoritma predstavlja gornju granicu trajanja algoritamskog procesa za bilo koje vrijednosti ulaznih podataka, što osigurava garanciju efikasnosti algoritma.
+
+- Analiza najgoreg slučaja traži identifikaciju ulaznih vrijednosti za koje trajanje algoritamskog procesa bude najduže.
+
+- Primjer najgoreg slučaja u algoritmima pretraživanja je kada se tražena vrijednost ne nalazi u nizu ili se tražena vrijednost nalazi na zadnjoj poziciji u nizu.
+
+- Najgori slučaj se pojavljuje često u nekim algoritmima.
+
+### Klase ulaza i prosječan slučaj
+
+- Klase ulaza se koriste za smanjenje broja mogućih ulaza koji se trebaju razmotriti pri analizi vremenske složenosti nekog algoritma.
+
+- Analiza prosječnog slučaja algoritma se temelji na podjeli svih mogućih ulaza u različite klase ulaza i razmatranju ponašanja algoritma za svaku klasu.
+
+- Analiza prosječnog slučaja omogućuje dobivanje potpunije slike o ponašanju algoritma, jer se razmatra ponašanje algoritma za različite klase ulaza.
+
+- Algoritam sekvencijalnog pretraživanja može se analizirati u dva slučaja, pretpostavljajući da je pretraživanje uvijek uspješno ili ponekad neuspješno.
+
+- U analizi prosječnog slučaja se uzimaju u obzir sve pozicije na kojima se traženi element može nalaziti u nizu.
+
+- Broj operacija usporedbe potreban za pronalaženje traženog elementa u algoritmu sekvencijalnog pretraživanja ovisi o poziciji na kojoj se taj element nalazi.
+
+```c++
+TRAZI-SEKV (K, k)
+i = 0
+while (i ≤ n-1) do
+if (K[i] == k) then
+return i
+else
+i = i+1
+end_if
+end_while
+return -1
+```
