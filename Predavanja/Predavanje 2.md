@@ -128,6 +128,7 @@ end_if
 end_while
 return -1
 ```
+
 ![image](https://user-images.githubusercontent.com/113919501/213008604-cb4ab6bb-a843-4535-b8e6-2a403cbcd35f.png)</br>
 ![image](https://user-images.githubusercontent.com/113919501/213008641-84513fdc-29d2-4e18-adfb-ec4801e76a82.png)</br>
 ![image](https://user-images.githubusercontent.com/113919501/213008675-3519ecf0-8f06-4b5e-bb8c-020fc36ff810.png)</br>
@@ -142,9 +143,10 @@ Da bi našli prosječan slučaj potrebno je uraditi sljedeće:
 
 4. Utvrditi vjerojatnost pojavljivanja svake klase ulaza i izračunati prosječno očekivani broj operacija T(n) kao:
 
- ![image](https://user-images.githubusercontent.com/113919501/213008755-344ba11e-05fe-4104-b880-941f9bc17b79.png)
+![image](https://user-images.githubusercontent.com/113919501/213008755-344ba11e-05fe-4104-b880-941f9bc17b79.png)
 
 gdje su:
+
 - n veličina ulaza
 - m broj različitih klasa ulaza
 - t(ui) broj operacija za klasu ulaza ui
