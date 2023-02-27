@@ -1,0 +1,31 @@
+{
+    "buildhost_description": {
+        "id": "etf.c9sec2",
+        "os": "Linux 5.4.0-89-generic x86_64\nUbuntu 20.04.5 LTS\n"
+    },
+    "tools": {
+        "compile": "9.4.0",
+        "compile[debug]": "9.4.0",
+        "debug": "9.2",
+        "profile[memcheck]": "valgrind-3.15.0",
+        "profile[sgcheck]": "valgrind-3.15.0"
+    },
+    "status": 4,
+    "test_results": {
+        "1": {
+            "success": false,
+            "status": 3,
+            "tools": {
+                "compile": {
+                    "status": 5,
+                    "duration": 1,
+                    "output": "cc1plus: warning: ‘-Werror=’ argument ‘-Werror=implicit-function-declaration’ is not valid for C++\ncc1plus: warning: ‘-Werror=’ argument ‘-Werror=implicit-function-declaration’ is not valid for C++\n/usr/bin/ld: /tmp/cc1EdJXF.o: in function `main':\nzadaca22.cpp:(.text+0x43e): multiple definition of `main'; /tmp/ccCrpJtD.o:zadaca21.cpp:(.text+0x0): first defined here\ncollect2: error: ld returned 1 exit status",
+                    "exit_code": 1,
+                    "success": false,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1668272114
+}
